@@ -159,7 +159,7 @@ def main():
     pygame.init()
 
     display_surface = pygame.display.set_mode((WIN_WIDTH, WIN_HEIGHT))
-    pygame.display.set_caption('Pygame Flappy Bird by sahithi dachepally')
+    pygame.display.set_caption('Pygame Flappy Bird ')
 
     clock = pygame.time.Clock()
     score_font = pygame.font.SysFont(None, 32, bold=True)  # default font
